@@ -83,17 +83,7 @@ master.mainloop()
 
 
 
-# while (cap.isOpened()):
-#     ret, frame = cap.read()
-#     rgbframe = frame
-#     cv2.destroyAllWindows()
-#     cv2.imshow('frame %d' % (framenum), rgbframe)
-#     cv2.moveWindow('frame %d' % (framenum), 5, 5)
-#     framenum += 1
-#     if cv2.waitKey(1000000000) | 0xFF == ord('q'):
-#         break
-# cap.release()
-# cv2.destroyAllWindows()
+
 #
 
 

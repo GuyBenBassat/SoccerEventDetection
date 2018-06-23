@@ -25,8 +25,8 @@ def forward():
     cv2.destroyAllWindows()
     cv2.imshow('frame %d' % (framenum), rgbframe)
     cv2.moveWindow('frame %d' % (framenum),200,200)
-    if cv2.waitKey(1000000000) | 0xFF == ord('q'):
-       end()
+    # if cv2.waitKey(1000000000) | 0xFF == ord('q'):
+    #    end()
 
 def forward10():
     global framenum
@@ -37,8 +37,8 @@ def forward10():
     cv2.destroyAllWindows()
     cv2.imshow('frame %d' % (framenum), rgbframe)
     cv2.moveWindow('frame %d' % (framenum), 200, 200)
-    if cv2.waitKey(1000000000) | 0xFF == ord('q'):
-       end()
+    # if cv2.waitKey(1000000000) | 0xFF == ord('q'):
+    #    end()
 
 def forward1000():
     global framenum
@@ -49,8 +49,8 @@ def forward1000():
     cv2.destroyAllWindows()
     cv2.imshow('frame %d' % (framenum), rgbframe)
     cv2.moveWindow('frame %d' % (framenum), 200, 200)
-    if cv2.waitKey(1000000000) | 0xFF == ord('q'):
-       end()
+    # if cv2.waitKey(1000000000) | 0xFF == ord('q'):
+    #    end()
 
 
 def end():
@@ -84,7 +84,7 @@ master.mainloop()
 
 
 
-#
+
 
 
 
